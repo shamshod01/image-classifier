@@ -1,7 +1,6 @@
-# To Run The Project Copy and Paste code to Google Colab Environment
+# Final Project of Introduction to AI class
+## Introduction:
 
-##Read Briefly about code structure and Project itself below
-##Introduction:
 This project aims to classify images by applying CNN(Convolutional Neural Network) to various image datasets, and to improve performance by using methods such as network structure design, hyperparameter tuning, batch normalization, and dropout.
 The program uses Python 3 and utilizes the PyTorch library.The code is written using Google Colab and include the following features:
 -   Dataset download part
@@ -12,7 +11,7 @@ The program uses Python 3 and utilizes the PyTorch library.The code is written u
 From the given 3 datasets (CIFAR-10, CIFAR-100, SVHN) in this project was used the SVHN dataset.  SVHN is short for Street View House Numbers, and consists of license plate numbers collected from Google Street View. There are a total of 10 classes (0~9), and it consists of 32x32 images of a total of 99289 (73257 trains, 26032 tests).
 The CNN model contains 5 Convolutional layers, as optimization algorithm uses Adam, activation function is Rectified Linear Unit.
 
-##Methods:
+## Methods:
 Defining the Model (Convolutional Neural Network)
 I used a convolutional neural network, using the nn.Conv2d class from PyTorch.
 The 2D convolution is a fairly simple operation at heart: you start with a kernel, which is simply a small matrix of weights. This kernel “slides” over the 2D input data, performing an elementwise multiplication with the part of the input it is currently on, and then summing up the results into a single output pixel.
